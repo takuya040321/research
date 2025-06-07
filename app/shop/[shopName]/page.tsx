@@ -51,7 +51,7 @@ export default function ShopPage({ params }: ShopPageProps) {
           
           {/* スクレイピングボタン */}
           <div className="flex items-center gap-4">
-            <ScrapingButton shopName={shop.displayName} />
+            <ScrapingButton shopName={shop.displayName} shopSlug={shop.slug} />
             <div className="flex items-center gap-2 text-sm text-gray-500">
               <Calendar className="w-4 h-4" />
               最終更新: {lastUpdateTime}

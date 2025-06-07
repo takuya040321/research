@@ -2,18 +2,18 @@ import { Shop } from '@/types/product';
 
 export const shops: Shop[] = [
   {
-    name: 'shop-a',
-    slug: 'shop-a',
-    displayName: 'ショップA'
+    name: 'vt-cosmetics',
+    slug: 'vt-cosmetics',
+    displayName: 'VT COSMETICS'
   },
   {
-    name: 'shop-b',
-    slug: 'shop-b',
-    displayName: 'ショップB'
+    name: 'naturelab',
+    slug: 'naturelab',
+    displayName: 'ネイチャーラボ'
   },
   {
-    name: 'shop-c',
-    slug: 'shop-c',
-    displayName: 'ショップC'
+    name: 'muji',
+    slug: 'muji',
+    displayName: '無印良品'
   }
 ];

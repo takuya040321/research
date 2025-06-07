@@ -2,36 +2,42 @@ import { Product } from '@/types/product';
 
 export const mockProducts: Product[] = [
   {
-    productName: 'プレミアム ワイヤレスヘッドホン',
-    productImageUrl: 'https://images.pexels.com/photos/3394650/pexels-photo-3394650.jpeg?auto=compress&cs=tinysrgb&w=300',
-    price: 24800,
-    discountedPrice: 19800,
-    shopName: 'ショップA'
+    productName: 'VT CICA マイルド フォームクレンザー',
+    productImageUrl: 'https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=300',
+    price: 1980,
+    discountedPrice: 1584,
+    shopName: 'VT COSMETICS'
   },
   {
-    productName: 'スマート フィットネスウォッチ',
-    productImageUrl: 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=300',
-    price: 32000,
-    shopName: 'ショップA'
+    productName: 'VT CICA スリーピング マスク',
+    productImageUrl: 'https://images.pexels.com/photos/3685175/pexels-photo-3685175.jpeg?auto=compress&cs=tinysrgb&w=300',
+    price: 2200,
+    shopName: 'VT COSMETICS'
   },
   {
-    productName: 'ノートブック レザーカバー',
-    productImageUrl: 'https://images.pexels.com/photos/1029141/pexels-photo-1029141.jpeg?auto=compress&cs=tinysrgb&w=300',
-    price: 4580,
-    discountedPrice: 3280,
-    shopName: 'ショップB'
+    productName: 'ラボン シャンプー シャイニームーン',
+    productImageUrl: 'https://images.pexels.com/photos/4465124/pexels-photo-4465124.jpeg?auto=compress&cs=tinysrgb&w=300',
+    price: 1540,
+    discountedPrice: 1232,
+    shopName: 'ネイチャーラボ'
   },
   {
-    productName: 'オーガニック コーヒー豆セット',
-    productImageUrl: 'https://images.pexels.com/photos/894695/pexels-photo-894695.jpeg?auto=compress&cs=tinysrgb&w=300',
-    price: 6800,
-    shopName: 'ショップB'
+    productName: 'ラボン コンディショナー シャイニームーン',
+    productImageUrl: 'https://images.pexels.com/photos/4465831/pexels-photo-4465831.jpeg?auto=compress&cs=tinysrgb&w=300',
+    price: 1540,
+    shopName: 'ネイチャーラボ'
   },
   {
-    productName: 'デスクライト LED調光機能付き',
-    productImageUrl: 'https://images.pexels.com/photos/1115804/pexels-photo-1115804.jpeg?auto=compress&cs=tinysrgb&w=300',
-    price: 8900,
-    discountedPrice: 7500,
-    shopName: 'ショップC'
+    productName: '無印良品 化粧水・敏感肌用・高保湿タイプ',
+    productImageUrl: 'https://images.pexels.com/photos/3685530/pexels-photo-3685530.jpeg?auto=compress&cs=tinysrgb&w=300',
+    price: 690,
+    shopName: '無印良品'
+  },
+  {
+    productName: '無印良品 乳液・敏感肌用・高保湿タイプ',
+    productImageUrl: 'https://images.pexels.com/photos/3685175/pexels-photo-3685175.jpeg?auto=compress&cs=tinysrgb&w=300',
+    price: 780,
+    discountedPrice: 624,
+    shopName: '無印良品'
   }
 ];

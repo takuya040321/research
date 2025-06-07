@@ -5,7 +5,7 @@ import { Package, TrendingUp, Store } from 'lucide-react';
 
 export default function Home() {
   const totalProducts = mockProducts.length;
-  const totalShops = [...new Set(mockProducts.map(p => p.shopName))].length;
+  const totalShops = new Set(mockProducts.map(p => p.shopName)).size;
   const onSaleProducts = mockProducts.filter(p => p.discountedPrice).length;
 
   return (
